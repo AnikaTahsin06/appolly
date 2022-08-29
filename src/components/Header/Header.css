@@ -45,17 +45,20 @@
 
 .card {
   /* position: absolute; */
-  width: 570px;
-  height: 432px;
+  width: 470px;
+  height: 332px;
   background: #ffffff;
+  margin-left: 135px;
+  margin-top: 172px;
 }
 
 .hdMobile img {
   /* position: absolute; */
   width: 431px;
   height: 514px;
-  left: 879px;
-  top: 216px;
+  /* margin-left: 879px; */
+  margin-top: 90px;
+  margin-right: 60px;
 }
 
 .sec-1-common {
