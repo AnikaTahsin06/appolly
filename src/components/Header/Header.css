@@ -52,6 +52,14 @@
   margin-top: 172px;
 }
 
+.shadowDiv {
+  width: 470px;
+  height: 332px;
+  margin-left: 145px;
+  margin-top: 162px;
+  border: 18px solid #7572ff;
+}
+
 .hdMobile img {
   /* position: absolute; */
   width: 431px;

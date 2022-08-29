@@ -71,6 +71,7 @@ const Header = () => {
               vitae incidunt? Ea earum quisquam minima nihil?
             </p>
           </div>
+          <div className="shadowDiv"></div>
           <div className="hdMobile">
             <img src={headMobile} alt="headMobile" />
           </div>
