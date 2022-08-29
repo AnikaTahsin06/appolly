@@ -5,6 +5,7 @@ import fb from "../../icons/fb.png";
 import instagram from "../../icons/instagram.png";
 import twitter from "../../icons/twitter.png";
 import youtube from "../../icons/youtube.png";
+import headMobile from "../../images/mobile.png";
 import "./Header.css";
 
 const Header = () => {
@@ -60,15 +61,18 @@ const Header = () => {
         </div>
       </section>
       <section className="section-3">
-        <div className="sec-2-div">
+        <div className="sec-3-div">
           <div className="card">
-            <title>Anika Tahsin</title>
+            <h1>Anika Tahsin</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consequatur repudiandae vero ducimus voluptatibus deserunt nihil
               est quibusdam autem inventore quas! Sequi cupiditate quisquam
               vitae incidunt? Ea earum quisquam minima nihil?
             </p>
+          </div>
+          <div className="hdMobile">
+            <img src={headMobile} alt="headMobile" />
           </div>
         </div>
       </section>

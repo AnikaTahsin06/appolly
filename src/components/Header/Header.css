@@ -1,6 +1,6 @@
 .bg {
   background-image: url(../../images/Background\ Image.png);
-  height: 150vh;
+  height: 120vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -35,6 +35,26 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
+}
+
+.sec-3-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  position: absolute;
+  width: 570px;
+  height: 432px;
+  background: #ffffff;
+}
+
+.hdMobile img {
+  position: absolute;
+  width: 431px;
+  height: 514px;
+  left: 879px;
+  top: 216px;
 }
 
 .sec-1-common {
