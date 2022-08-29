@@ -30,6 +30,7 @@
   margin: 0px 100px;
   padding: 10px;
   height: 28px;
+  width: auto;
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
@@ -43,14 +44,14 @@
 }
 
 .card {
-  position: absolute;
+  /* position: absolute; */
   width: 570px;
   height: 432px;
   background: #ffffff;
 }
 
 .hdMobile img {
-  position: absolute;
+  /* position: absolute; */
   width: 431px;
   height: 514px;
   left: 879px;
