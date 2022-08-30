@@ -45,7 +45,7 @@
 
 .card {
   /* position: absolute; */
-  width: 470px;
+  width: 50%;
   height: 332px;
   background: #ffffff;
   margin-left: 135px;
@@ -53,11 +53,12 @@
 }
 
 .shadowDiv {
-  width: 470px;
+  width: 50%;
   height: 332px;
-  margin-left: 145px;
+  margin-left: -35px;
   margin-top: 162px;
   border: 18px solid #7572ff;
+  /* z-index: 1; */
 }
 
 .hdMobile img {
