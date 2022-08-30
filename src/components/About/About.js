@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImage from "../../images/aboutImage.png";
+import tik from "../../icons/tik.png";
 import "./About.css";
 
 const About = () => {
@@ -19,45 +20,42 @@ const About = () => {
           <img src={aboutImage} alt="about images" />
         </div>
         <div className="sec-2-card">
-          <div className="cards">
-            <div>
-              <h1>aa</h1>
+          <div className="aboutCard">
+            <div className="tik">
+              <img src={tik} alt="tik" />
             </div>
-            <div>
-              <h2>Anika</h2>
+            <div className="aboutCardDetails">
+              <h2>Creative design</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, quibusdam quasi. Corrupti et alias ex asperiores
-                praesentium maiores voluptates id odit rerum atque dolorem
-                accusamus aspernatur, enim accusantium architecto ratione.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
               </p>
             </div>
           </div>
-          <div className="cards">
-            <div>
-              <h1>aa</h1>
+          <div className="aboutCard">
+            <div className="tik">
+              <img src={tik} alt="tik" />
             </div>
-            <div>
-              <h2>Anika</h2>
+            <div className="aboutCardDetails">
+              <h2>easy to use</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, quibusdam quasi. Corrupti et alias ex asperiores
-                praesentium maiores voluptates id odit rerum atque dolorem
-                accusamus aspernatur, enim accusantium architecto ratione.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
               </p>
             </div>
           </div>
-          <div className="cards">
-            <div>
-              <h1>aa</h1>
+          <div className="aboutCard">
+            <div className="tik">
+              <img src={tik} alt="tik" />
             </div>
-            <div>
-              <h2>Anika</h2>
+            <div className="aboutCardDetails">
+              <h2>Best user experince</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam, quibusdam quasi. Corrupti et alias ex asperiores
-                praesentium maiores voluptates id odit rerum atque dolorem
-                accusamus aspernatur, enim accusantium architecto ratione.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+                Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
               </p>
             </div>
           </div>

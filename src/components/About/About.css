@@ -45,12 +45,53 @@
   display: block;
 }
 
-.cards {
+.aboutCard {
   display: flex;
   gap: 15px;
   width: 80%;
+  height: 30%;
   margin-bottom: 35px;
   background: #ffffff;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+.tik {
+  width: 10%;
+}
+.tik img {
+  padding-top: 20px;
+  padding-left: 12px;
+}
+
+.aboutCardDetails {
+  width: 90%;
+}
+
+.aboutCardDetails h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-transform: uppercase;
+
+  /* Black */
+
+  color: #232233;
+}
+
+.aboutCardDetails p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Gray ( Paragraph ) */
+
+  color: #6c6c72;
 }
