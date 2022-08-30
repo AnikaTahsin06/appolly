@@ -1,0 +1,52 @@
+.sec_1 {
+  margin: 20px 40px;
+  padding: 40px 320px;
+}
+
+.sec_1 h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232233;
+}
+.sec_1 p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  text-align: center;
+  color: #6c6c72;
+}
+
+.BlogCard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.BlogCard1 {
+  width: 27%;
+  display: block;
+  height: 500px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.BlogCard1 img {
+  height: 50%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* .card-body {
+   
+} */
