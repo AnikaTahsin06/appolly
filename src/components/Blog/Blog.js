@@ -21,43 +21,52 @@ const Blog = () => {
           <div className="BlogCard1">
             <img src={blogImage_1} alt="blog1" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">
+                The Snap Pixel: How It Works and How to Install{" "}
+              </h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               </p>
-              <a href="#" class="card-link">
-                Card link
+              <a href="#" className="card-link">
+                Read more
               </a>
             </div>
           </div>
           <div className="BlogCard1">
             <img src={blogImage_2} alt="blog1" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">
+                Global Partner Solutions: A Partnership of Innovation
+              </h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               </p>
-              <a href="#" class="card-link">
-                Card link
+              <a href="#" className="card-link">
+                Read more
               </a>
             </div>
           </div>
           <div className="BlogCard1">
             <img src={blogImage_3} alt="blog1" />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">
+                2021: An opportunity for Snapchatters to start fresh
+              </h5>
               <p className="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               </p>
-              <a href="#" class="card-link">
-                Card link
+              <a href="#" className="card-link">
+                Read more
               </a>
             </div>
           </div>
         </div>
+      </section>
+      <section>
+        <h1>abn</h1>
       </section>
     </section>
   );
