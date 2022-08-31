@@ -29,3 +29,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+.common {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items3_common {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}

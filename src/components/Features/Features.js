@@ -1,6 +1,8 @@
 import React from "react";
 import app_feat_back from "../../images/app_feat_back.png";
+import App from "../../images/App.png";
 import chat from "../../icons/chat.png";
+import tele from "../../icons/male-telemarketer.png";
 import "./Features.css";
 
 const Features = () => {
@@ -25,18 +27,24 @@ const Features = () => {
             <h2>Full free chat</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
-          <div className="app_feat_items3 items-align">
-            <div className="items3_left">
+          <div className="app_feat_items3  items3_common">
+            <div className="items3_left common">
+              <h1>hi</h1>
               <h1>hi</h1>
             </div>
             <div className="items3_img">
-              <h1>hi</h1>
+              <img src={App} alt="App" />
             </div>
-            <div className="items3_right">
+            <div className="items3_right common">
+              <h1>hi</h1>
               <h1>hi</h1>
             </div>
           </div>
-          <div className="app_feat_items4 items-align"></div>
+          <div className="app_feat_items4 items-align">
+            <img src={tele} alt="tele" />
+            <h2>24/7 support by real pepole</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
         </div>
       </div>
     </section>
