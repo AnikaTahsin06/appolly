@@ -63,15 +63,18 @@ const Header = () => {
       <section className="section-3">
         <div className="sec-3-div">
           <div className="card">
-            <h1>Anika Tahsin</h1>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Consequatur repudiandae vero ducimus voluptatibus deserunt nihil
-              est quibusdam autem inventore quas! Sequi cupiditate quisquam
-              vitae incidunt? Ea earum quisquam minima nihil?
-            </p>
+            <div className="card_div">
+              <h1>Anika Tahsin</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequatur repudiandae vero ducimus voluptatibus deserunt nihil
+                est quibusdam autem inventore quas! Sequi cupiditate quisquam
+                vitae incidunt? Ea earum quisquam minima nihil?
+              </p>
+            </div>
+            <div className="shadowDiv"></div>
           </div>
-          <div className="shadowDiv"></div>
+
           <div className="hdMobile">
             <img src={headMobile} alt="headMobile" />
           </div>
