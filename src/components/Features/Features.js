@@ -3,6 +3,7 @@ import app_feat_back from "../../images/app_feat_back.png";
 import App from "../../images/App.png";
 import chat from "../../icons/chat.png";
 import tele from "../../icons/male-telemarketer.png";
+import unlimiter from "../../icons/unlimiter.png";
 import "./Features.css";
 
 const Features = () => {
@@ -29,7 +30,11 @@ const Features = () => {
           </div>
           <div className="app_feat_items3  items3_common">
             <div className="items3_left common">
-              <h1>hi</h1>
+              <div className="left">
+                <img src={unlimiter} alt="unlimiter" />
+                <h2>Unlimiter Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
               <h1>hi</h1>
             </div>
             <div className="items3_img">
