@@ -1,7 +1,7 @@
 .app_features {
   display: flex;
   position: relative;
-  height: 1480px;
+  height: 1430px;
   margin-top: 120px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .app_feat_back img {
-  height: 1480px;
+  height: 1430px;
   width: 100%;
   z-index: 0;
 }
@@ -69,10 +69,18 @@
   padding-left: 400px;
   padding-right: 400px;
 }
+.app_feat_items4 {
+  text-align: center;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: -40px;
+}
 
 .app_feat_items2 img {
-  width: 46px;
-  height: 43px;
+  width: 44px;
+  height: 41px;
 }
 
 .app_feat_items2 h2 {
@@ -93,6 +101,40 @@
   line-height: 24px;
   color: #ffffff;
   margin-top: -10px;
+}
+
+.app_feat_items4 {
+  text-align: center;
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: -40px;
+}
+
+.app_feat_items4 img {
+  width: 44px;
+  height: 43px;
+}
+
+.app_feat_items4 h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.app_feat_items4 p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: -5px;
 }
 
 .common {
