@@ -1,5 +1,7 @@
 import React from "react";
 import gravity from "../../images/Gravity.png";
+import toppng from "../../images/toppng.png";
+import pngitem from "../../images/PngItem.png";
 import "./Checkout.css";
 
 const Checkout = () => {
@@ -9,7 +11,7 @@ const Checkout = () => {
       <section className="checkout-section-2">
         <div className="wholediv">
           <div className="subdiv1">
-            <div>
+            <div className="sub1">
               <h1>DOWNLOAD APP NOW</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
@@ -18,14 +20,21 @@ const Checkout = () => {
                 accusamus consequuntur, porro eaque corporis saepe tempore.
               </p>
             </div>
-            <div>
-              <h2>Anika</h2>
+            <div className="sub2">
+              <img src={toppng} alt="toppng" />
+              <img src={pngitem} alt="pngitem" />
             </div>
-            <div>
-              <h2>Anika</h2>
+            <div className="sub3">
+              <div className="bluediv">
+                <h3>Anika</h3>
+              </div>
+              <div className="bluediv">
+                <h3>Anika</h3>
+              </div>
+              <div className="bluediv">
+                <h3>Anik</h3>
+              </div>
             </div>
-            <div></div>
-            <div></div>
           </div>
           <div className="subdiv2">
             <img src={gravity} alt="Gravity" />
