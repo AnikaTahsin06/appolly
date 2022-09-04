@@ -7,7 +7,17 @@ import "./Checkout.css";
 const Checkout = () => {
   return (
     <section>
-      <section></section>
+      <section className="checkout-section-1">
+        <div>
+          <h1>className="checkout-section-2"</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+            nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+            Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+            Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+          </p>
+        </div>
+      </section>
       <section className="checkout-section-2">
         <div className="wholediv">
           <div className="subdiv1">
