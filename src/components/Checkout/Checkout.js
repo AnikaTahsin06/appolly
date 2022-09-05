@@ -8,8 +8,8 @@ const Checkout = () => {
   return (
     <section>
       <section className="checkout-section-1">
-        <div>
-          <h1>className="checkout-section-2"</h1>
+        <div className="first">
+          <h1>Checkout Our App Interface Look</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
