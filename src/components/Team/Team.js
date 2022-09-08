@@ -1,5 +1,7 @@
 import React from "react";
 import Rectangle from "../../images/Rectangle.png";
+import video from "../../images/Video.png";
+import videoicon from "../../images/Vodeo Icon.png";
 import "./Team.css";
 
 const Team = () => {
@@ -11,7 +13,7 @@ const Team = () => {
             <img src={Rectangle} alt="Rectangle" />
           </div>
           <div className="app_perfectly_items">
-            <div>
+            <div className="app_perfectly_items1">
               <h1>how to use the app perfectly</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
@@ -19,6 +21,10 @@ const Team = () => {
                 Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
                 Ullamcorper risus tempor, ac nunc libero urna, feugiat.
               </p>
+            </div>
+            <div className="app_perfectly_items2">
+              <img src={video} alt="video" className="video" />
+              <img src={videoicon} alt="videoicon" className="videoicon" />
             </div>
           </div>
         </div>
