@@ -65,9 +65,37 @@
 
 .video {
   margin-top: -95px;
-  /* z-index: 0; */
 }
 
 .videoicon {
   margin-top: -310px;
+}
+
+.team {
+  margin-top: 170px;
+}
+
+.reative_team {
+  margin: 20px 25%;
+}
+
+.reative_team h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #232233;
+}
+.reative_team p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  color: #6c6c72;
 }

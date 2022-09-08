@@ -29,7 +29,18 @@ const Team = () => {
           </div>
         </div>
       </section>
-      <section></section>
+      <section className="team">
+        <div className="reative_team">
+          <h1>Our reative team</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+            nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+            Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
+            Ullamcorper risus tempor, ac nunc libero urna, feugiat.
+          </p>
+        </div>
+        <div className="profile">profile</div>
+      </section>
     </section>
   );
 };
