@@ -2,6 +2,7 @@ import React from "react";
 import Rectangle from "../../images/Rectangle.png";
 import video from "../../images/Video.png";
 import videoicon from "../../images/Vodeo Icon.png";
+import Profile from "../Profile/Profile";
 import "./Team.css";
 
 const Team = () => {
@@ -39,7 +40,9 @@ const Team = () => {
             Ullamcorper risus tempor, ac nunc libero urna, feugiat.
           </p>
         </div>
-        <div className="profile">profile</div>
+        <div>
+          <Profile />
+        </div>
       </section>
     </section>
   );
