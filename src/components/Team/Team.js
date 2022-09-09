@@ -40,7 +40,9 @@ const Team = () => {
             Ullamcorper risus tempor, ac nunc libero urna, feugiat.
           </p>
         </div>
-        <div>
+        <div className="profile">
+          <Profile />
+          <Profile />
           <Profile />
         </div>
       </section>

@@ -98,3 +98,10 @@
   text-align: center;
   color: #6c6c72;
 }
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding: 45px 0px;
+}

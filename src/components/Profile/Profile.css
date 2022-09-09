@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 370px;
-  height: 580px;
+  width: 22%;
+  height: 470px;
   background: #ffffff;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -16,11 +16,17 @@
   align-items: center;
 }
 
+.s {
+  width: 86%;
+}
+
 .r {
-  margin-top: -209px;
+  width: 77%;
+  margin-top: -179.5px;
 }
 
 .profile_intro {
+  padding-top: 25px;
   text-align: center;
   margin: 0px 7%;
 }
@@ -29,7 +35,7 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 25px;
   line-height: 47px;
   text-transform: uppercase;
   color: #232233;
@@ -39,7 +45,7 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   text-transform: uppercase;
   color: #6c6c72;
@@ -50,7 +56,7 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   text-align: center;
   color: #6c6c72;
@@ -59,7 +65,26 @@
 .social_icon {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  margin-top: 7px;
+  gap: 27px;
+}
+
+.f_b {
+  width: 3.8%;
+  height: 16px;
+}
+
+.ins_ta {
+  width: 6%;
+  height: 16px;
+}
+.twi_ttr {
+  width: 7%;
+  height: 16px;
+}
+.you_tube {
+  width: 6%;
+  height: 13px;
 }
 
 .social_icon div {
