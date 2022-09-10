@@ -2,6 +2,8 @@ import React from "react";
 import blogImage_1 from "../../images/blogImage_1.png";
 import blogImage_2 from "../../images/blogImage_2.png";
 import blogImage_3 from "../../images/blogImage_3.png";
+import Email from "../../icons/Email Icon.png";
+import Call from "../../icons/Call.png";
 import "./Blog.css";
 
 const Blog = () => {
@@ -28,7 +30,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               </p>
-              <a href="#" className="card-link">
+              <a href="/" className="card-link">
                 Read more
               </a>
             </div>
@@ -43,7 +45,7 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               </p>
-              <a href="#" className="card-link">
+              <a href="/" className="card-link">
                 Read more
               </a>
             </div>
@@ -58,15 +60,27 @@ const Blog = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
                 nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
               </p>
-              <a href="#" className="card-link">
+              <a href="/" className="card-link">
                 Read more
               </a>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <h1>abn</h1>
+      <section className="sec_3">
+        <div className="sec_3_div">
+          <div className="two_sides">
+            <img src={Email} alt="Email" />
+            <span>info@youremail.com</span>
+          </div>
+          <div className="divide">
+            <div />
+          </div>
+          <div className="two_sides">
+            <img src={Call} alt="Call" />
+            <span>+880 321 655 9985</span>
+          </div>
+        </div>
       </section>
     </section>
   );
