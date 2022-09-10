@@ -69,14 +69,14 @@ const Blog = () => {
       </section>
       <section className="sec_3">
         <div className="sec_3_div">
-          <div className="two_sides">
+          <div className="two_sides sec_3_div_left">
             <img src={Email} alt="Email" />
             <span>info@youremail.com</span>
           </div>
           <div className="divide">
             <div />
           </div>
-          <div className="two_sides">
+          <div className="two_sides sec_3_div_right">
             <img src={Call} alt="Call" />
             <span>+880 321 655 9985</span>
           </div>
