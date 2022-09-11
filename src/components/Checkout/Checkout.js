@@ -1,12 +1,40 @@
 import React from "react";
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from "uuid";
+import first from "../../images/1.png";
+import second from "../../images/2.png";
+import third from "../../images/3.png";
+import fourth from "../../images/4.png";
+import fifth from "../../images/5.png";
 import gravity from "../../images/Gravity.png";
 import toppng from "../../images/toppng.png";
 import pngitem from "../../images/PngItem.png";
 import "./Checkout.css";
 
 const Checkout = () => {
+  const slides = [
+    {
+      key: uuidv4(),
+      content: <img src={first} alt="1" />,
+    },
+    {
+      key: uuidv4(),
+      content: <img src={second} alt="2" />,
+    },
+    {
+      key: uuidv4(),
+      content: <img src={third} alt="3" />,
+    },
+    {
+      key: uuidv4(),
+      content: <img src={fourth} alt="4" />,
+    },
+    {
+      key: uuidv4(),
+      content: <img src={fifth} alt="5" />,
+    },
+  ];
+
   return (
     <section>
       <section className="checkout-section-1">
@@ -20,7 +48,9 @@ const Checkout = () => {
           </p>
         </div>
         <div className="container">
-          <h1>Hello</h1>
+          <div style={{ height: "500px", width: "70%", margin: "0 auto" }}>
+            <Carousel slides={slides} />
+          </div>
         </div>
       </section>
       <section className="checkout-section-2">
