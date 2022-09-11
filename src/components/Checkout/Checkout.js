@@ -1,4 +1,6 @@
 import React from "react";
+import Carousel from "react-spring-3d-carousel";
+import { v4 as uuidv4 } from "uuid";
 import gravity from "../../images/Gravity.png";
 import toppng from "../../images/toppng.png";
 import pngitem from "../../images/PngItem.png";
@@ -16,6 +18,9 @@ const Checkout = () => {
             Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
             Ullamcorper risus tempor, ac nunc libero urna, feugiat.
           </p>
+        </div>
+        <div className="container">
+          <h1>Hello</h1>
         </div>
       </section>
       <section className="checkout-section-2">

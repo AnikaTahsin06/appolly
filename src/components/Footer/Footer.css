@@ -1,15 +1,38 @@
 .Footer {
   display: flex;
+  align-items: center;
   padding-left: 100px;
   gap: 300px;
 
-  height: 242px;
+  height: 245px;
   background: #232233;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .Logo {
   display: block;
+  margin-left: 35px;
+  width: 22%;
+}
+
+.logo h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.logo p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: -15px;
 }
 
 .links {
@@ -18,4 +41,24 @@
 }
 .links div {
   border-right: 1px solid #ffffff;
+}
+
+.quickLinks h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.newsLetter h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
 }

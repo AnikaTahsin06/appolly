@@ -24,6 +24,10 @@
   color: #6c6c72;
 }
 
+.container {
+  margin: 20px 10%;
+}
+
 .wholediv {
   display: flex;
   justify-content: center;

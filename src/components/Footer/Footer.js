@@ -6,9 +6,12 @@ const Footer = () => {
     <section>
       <div className="Footer">
         <div className="Logo">
-          <div>
-            <h1>Anika</h1>
-            <p>annann</p>
+          <div className="logo">
+            <h1>Logo</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+              nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
+            </p>
           </div>
           <div className="links">
             <span>fb</span>
@@ -21,11 +24,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="quickLinks">
-          <h1>Tahsin</h1>
+          <h1>quick link</h1>
           <p>fdfdfd</p>
         </div>
         <div className="newsLetter">
-          <h1>Bushra</h1>
+          <h1>news letter</h1>
           <p>ssdddd</p>
         </div>
       </div>
