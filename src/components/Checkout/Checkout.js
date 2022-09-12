@@ -9,6 +9,7 @@ import fifth from "../../images/5.png";
 import gravity from "../../images/Gravity.png";
 import toppng from "../../images/toppng.png";
 import pngitem from "../../images/PngItem.png";
+import Ellipse from "../../images/Ellipse 4.png";
 import "./Checkout.css";
 
 const Checkout = () => {
@@ -88,6 +89,7 @@ const Checkout = () => {
           </div>
           <div className="subdiv2">
             <img src={gravity} alt="Gravity" />
+            <img src={Ellipse} alt="Ellipse" />
           </div>
         </div>
       </section>
