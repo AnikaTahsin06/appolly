@@ -47,13 +47,14 @@
   display: flex;
   justify-content: center;
   margin-left: 7%;
+  margin-top: -20px;
 }
 
 .card_div {
   width: 65%;
   height: 380px;
   background: #ffffff;
-  margin-right: -400px;
+  margin-right: -420px;
   margin-top: 210px;
   padding-left: 3%;
   padding-right: 1%;
@@ -65,7 +66,7 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 43px;
+  font-size: 41px;
   line-height: 50px;
   text-transform: uppercase;
   color: #5956e9;
@@ -81,6 +82,23 @@
   margin-top: -20px;
 }
 
+.card_div_two h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #232233;
+  padding-top: 22px;
+}
+
+.card_div_two img {
+  width: 132px;
+  height: 42px;
+  margin-top: -10px;
+}
+
 .shadowDiv {
   width: 65%;
   height: 440px;
@@ -91,11 +109,11 @@
 
 .hdMobile img {
   /* position: absolute; */
-  width: 431px;
-  height: 514px;
+  width: 445px;
+  height: 580px;
   /* margin-left: 879px; */
   margin-top: 90px;
-  margin-right: 60px;
+  /* margin-right: 20px; */
 }
 
 .sec-1-common {
