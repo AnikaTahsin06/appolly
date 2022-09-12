@@ -1,9 +1,25 @@
 import React from "react";
+import Carousel from "react-spring-3d-carousel";
+import { v4 as uuidv4 } from "uuid";
 import Rectangle14 from "../../images/Rectangle 14.png";
 import "./Customer.css";
 import CustomerCard from "./CustomerCard";
 
 const Customer = () => {
+  const slides = [
+    {
+      key: uuidv4(),
+      content: <CustomerCard />,
+    },
+    {
+      key: uuidv4(),
+      content: <CustomerCard />,
+    },
+    {
+      key: uuidv4(),
+      content: <CustomerCard />,
+    },
+  ];
   return (
     <div className="customer">
       <div className="customer_back">
@@ -20,8 +36,13 @@ const Customer = () => {
           </p>
         </div>
         <div className="customer_items2">
-          <div style={{ height: "450px", width: "50%", margin: "0 auto" }}>
-            <CustomerCard />
+          <div style={{ height: "300px", width: "70%", margin: "0 auto" }}>
+            <Carousel
+              slides={slides}
+              goToSlide={0}
+              offsetRadius={2}
+              // showNavigation={true}
+            />
           </div>
         </div>
       </div>
