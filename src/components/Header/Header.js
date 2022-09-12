@@ -6,6 +6,8 @@ import instagram from "../../icons/instagram.png";
 import twitter from "../../icons/twitter.png";
 import youtube from "../../icons/youtube.png";
 import headMobile from "../../images/mobile.png";
+import toppng from "../../images/toppng.png";
+import pngItem from "../../images/PngItem.png";
 import "./Header.css";
 
 const Header = () => {
@@ -51,10 +53,12 @@ const Header = () => {
       </section>
       <section className="section-2">
         <div className="sec-2-div">
-          <span>PHONE</span>
+          <span>HOME</span>
           <span>ABOUT</span>
           <span>FEATURES</span>
-          <span>APPOLLY</span>
+          <div>
+            <span>APPOLLY</span>
+          </div>
           <span>SCREESHOT</span>
           <span>BLOG</span>
           <button>DOWNLOAD</button>
@@ -64,13 +68,20 @@ const Header = () => {
         <div className="sec-3-div">
           <div className="card">
             <div className="card_div">
-              <h1>Anika Tahsin</h1>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consequatur repudiandae vero ducimus voluptatibus deserunt nihil
-                est quibusdam autem inventore quas! Sequi cupiditate quisquam
-                vitae incidunt? Ea earum quisquam minima nihil?
-              </p>
+              <div className="card_div_one">
+                <h1>A Great App Makes Your Life Better</h1>
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+              <div className="card_div_two">
+                <h2>Download App Now</h2>
+
+                <img src={toppng} alt="top png" />
+                <img src={pngItem} alt="pngItem" />
+              </div>
             </div>
             <div className="shadowDiv"></div>
           </div>

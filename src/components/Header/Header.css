@@ -1,6 +1,6 @@
 .bg {
   background-image: url(../../images/Background\ Image.png);
-  height: 120vh;
+  height: 130vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -46,25 +46,47 @@
 .card {
   display: flex;
   justify-content: center;
+  margin-left: 7%;
 }
 
 .card_div {
-  width: 50%;
-  height: 300px;
+  width: 65%;
+  height: 380px;
   background: #ffffff;
-  margin-right: -135px;
-  margin-top: 200px;
+  margin-right: -400px;
+  margin-top: 210px;
+  padding-left: 3%;
+  padding-right: 1%;
+  /* padding-top: 4%; */
   z-index: 5;
 }
 
+.card_div_one h1 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #5956e9;
+}
+
+.card_div_one p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6c6c72;
+  margin-top: -20px;
+}
+
 .shadowDiv {
-  width: 50%;
-  height: 332px;
-  /* margin-left: -35px; */
+  width: 65%;
+  height: 440px;
+
   margin-top: 162px;
   border: 18px solid #7572ff;
-  /* z-index: 0; */
-  /* z-index: 1; */
 }
 
 .hdMobile img {
