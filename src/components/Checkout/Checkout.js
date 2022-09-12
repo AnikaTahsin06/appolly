@@ -15,7 +15,7 @@ const Checkout = () => {
   const slides = [
     {
       key: uuidv4(),
-      content: <img src={first} alt="1" />,
+      content: <img src={third} alt="1" />,
     },
     {
       key: uuidv4(),
@@ -23,7 +23,7 @@ const Checkout = () => {
     },
     {
       key: uuidv4(),
-      content: <img src={third} alt="3" />,
+      content: <img src={first} alt="3" />,
     },
     {
       key: uuidv4(),
@@ -48,8 +48,13 @@ const Checkout = () => {
           </p>
         </div>
         <div className="container">
-          <div style={{ height: "500px", width: "70%", margin: "0 auto" }}>
-            <Carousel slides={slides} />
+          <div style={{ height: "450px", width: "50%", margin: "0 auto" }}>
+            <Carousel
+              slides={slides}
+              goToSlide={0}
+              offsetRadius={2}
+              showNavigation={true}
+            />
           </div>
         </div>
       </section>
