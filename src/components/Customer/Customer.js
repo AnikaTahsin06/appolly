@@ -1,6 +1,7 @@
 import React from "react";
 import Rectangle14 from "../../images/Rectangle 14.png";
 import "./Customer.css";
+import CustomerCard from "./CustomerCard";
 
 const Customer = () => {
   return (
@@ -17,6 +18,11 @@ const Customer = () => {
             Faucibus amet etiam tincidunt rhoncus, ullamcorper velit.
             Ullamcorper risus tempor, ac nunc libero urna, feugiat.
           </p>
+        </div>
+        <div className="customer_items2">
+          <div style={{ height: "450px", width: "50%", margin: "0 auto" }}>
+            <CustomerCard />
+          </div>
         </div>
       </div>
     </div>
