@@ -70,14 +70,14 @@ const Checkout = () => {
                 Exercitationem voluptatibus, inventore, amet vitae esse totam
                 accusamus consequuntur, porro eaque corporis saepe tempore.
               </p>
-            </div>
-            <div className="sub2">
-              <img src={toppng} alt="toppng" />
-              <img src={pngitem} alt="pngitem" />
+              <img src={toppng} alt="toppng" className="toppng" />
+              <img src={pngitem} alt="pngitem" className="pngitem" />
             </div>
             <div className="sub3">
               <div className="bluediv">
                 <h3>Anika</h3>
+                <h4>Tahsin</h4>
+                <h5>Bushra</h5>
               </div>
               <div className="bluediv">
                 <h3>Anika</h3>
@@ -88,8 +88,8 @@ const Checkout = () => {
             </div>
           </div>
           <div className="subdiv2">
-            <img src={gravity} alt="Gravity" />
-            <img src={Ellipse} alt="Ellipse" />
+            <img src={gravity} alt="Gravity" className="gravity" />
+            <img src={Ellipse} alt="Ellipse" className="subdiv2_ellipse" />
           </div>
         </div>
       </section>

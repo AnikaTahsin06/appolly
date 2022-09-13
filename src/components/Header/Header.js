@@ -79,8 +79,8 @@ const Header = () => {
               <div className="card_div_two">
                 <h2>Download App Now</h2>
 
-                <img src={toppng} alt="top png" />
-                <img src={pngItem} alt="pngItem" />
+                <img src={toppng} alt="top png" className="toppng" />
+                <img src={pngItem} alt="pngItem" className="pngitem" />
               </div>
             </div>
             <div className="shadowDiv"></div>
