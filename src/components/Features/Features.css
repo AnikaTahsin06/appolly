@@ -27,10 +27,11 @@
 .app_feat_items1 {
   text-align: center;
   padding-top: 100px;
-  margin-left: 40px;
+  /* margin-left: 40px;
   margin-right: 40px;
   padding-left: 320px;
-  padding-right: 320px;
+  padding-right: 320px; */
+  margin: 0px 25%;
   margin-bottom: 25px;
 }
 
@@ -64,17 +65,18 @@
 
 .app_feat_items2 {
   text-align: center;
-  margin-left: 140px;
+  /* margin-left: 140px;
   margin-right: 140px;
   padding-left: 400px;
-  padding-right: 400px;
+  padding-right: 400px; */
+  margin: 0px 25%;
 }
 .app_feat_items4 {
   text-align: center;
-  margin-left: 140px;
+  /* margin-left: 140px;
   margin-right: 140px;
   padding-left: 400px;
-  padding-right: 400px;
+  padding-right: 400px; */
   margin-top: -40px;
 }
 
@@ -105,10 +107,10 @@
 
 .app_feat_items4 {
   text-align: center;
-  margin-left: 140px;
+  /* margin-left: 140px;
   margin-right: 140px;
   padding-left: 400px;
-  padding-right: 400px;
+  padding-right: 400px; */
   margin-top: -40px;
 }
 
@@ -156,7 +158,7 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-left: 54px;
+  margin-left: 12px;
 }
 
 .left {
@@ -165,7 +167,7 @@
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
-  width: 255px;
+  /* width: 255px; */
 }
 
 .items3_right {
@@ -177,7 +179,7 @@
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  width: 280px;
+  /* width: 280px; */
 }
 
 .left img {
