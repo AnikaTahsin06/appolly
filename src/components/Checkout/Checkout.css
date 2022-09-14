@@ -89,6 +89,21 @@
   border-radius: 10px;
 }
 
+.bluediv img {
+  padding-top: 23px;
+  padding-bottom: 5px;
+}
+
+.bluediv h3 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .sub2 img {
   width: 149px;
   height: 47px;

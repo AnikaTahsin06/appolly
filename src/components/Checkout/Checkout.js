@@ -10,6 +10,9 @@ import gravity from "../../images/Gravity.png";
 import toppng from "../../images/toppng.png";
 import pngitem from "../../images/PngItem.png";
 import Ellipse from "../../images/Ellipse 4.png";
+import down from "../../icons/down.png";
+import like from "../../icons/like.png";
+import star from "../../icons/star.png";
 import "./Checkout.css";
 
 const Checkout = () => {
@@ -75,15 +78,19 @@ const Checkout = () => {
             </div>
             <div className="sub3">
               <div className="bluediv">
-                <h3>Anika</h3>
-                <h4>Tahsin</h4>
-                <h5>Bushra</h5>
+                <img src={down} alt="download" />
+                <h3>59865</h3>
+                <h3>Download</h3>
               </div>
               <div className="bluediv">
-                <h3>Anika</h3>
+                <img src={like} alt="like" />
+                <h3>29852</h3>
+                <h3>LIke</h3>
               </div>
               <div className="bluediv">
-                <h3>Anik</h3>
+                <img src={star} alt="star" />
+                <h3>1500</h3>
+                <h3>5 star rating</h3>
               </div>
             </div>
           </div>
