@@ -25,6 +25,7 @@
 .sec-2-div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: white;
   border-radius: 4px;
   margin: 0px 100px;
@@ -34,8 +35,55 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
+  text-transform: uppercase;
+}
+
+.sec-2-div a {
+  text-decoration: none;
+  color: #232233;
+}
+
+.sec-2-div a:hover {
+  text-decoration-line: underline;
+  color: #5851ea;
+}
+
+.s_1 {
+  margin-left: 25px;
+}
+
+.mainlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 188px;
+  height: 78px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.mainlogoimg {
+  width: 150px;
+  height: 23px;
+}
+
+.butn {
+  width: 134px;
+  height: 39.5px;
+  margin-right: -5px;
+  background: #5956e9;
+  border-radius: 5px;
+  border: transparent;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .sec-3-div {
@@ -46,15 +94,16 @@
 .card {
   display: flex;
   justify-content: center;
-  margin-left: 7%;
+  /* margin-left: 7%; */
+  /* margin-right: 5%; */
   margin-top: -20px;
 }
 
 .card_div {
-  width: 65%;
+  width: 52%;
   height: 380px;
   background: #ffffff;
-  margin-right: -420px;
+  margin-right: -50%;
   margin-top: 210px;
   padding-left: 3%;
   padding-right: 1%;
@@ -104,7 +153,7 @@
 }
 
 .shadowDiv {
-  width: 65%;
+  width: 52%;
   height: 440px;
 
   margin-top: 162px;

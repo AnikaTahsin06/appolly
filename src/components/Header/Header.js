@@ -5,6 +5,7 @@ import fb from "../../icons/fb.png";
 import instagram from "../../icons/instagram.png";
 import twitter from "../../icons/twitter.png";
 import youtube from "../../icons/youtube.png";
+import logo from "../../images/Logo.png";
 import headMobile from "../../images/mobile.png";
 import toppng from "../../images/toppng.png";
 import pngItem from "../../images/PngItem.png";
@@ -53,15 +54,27 @@ const Header = () => {
       </section>
       <section className="section-2">
         <div className="sec-2-div">
-          <span>HOME</span>
-          <span>ABOUT</span>
-          <span>FEATURES</span>
-          <div>
-            <span>APPOLLY</span>
+          <a href="/" className="s_1">
+            HOME
+          </a>
+          <a href="/" className="s_2">
+            ABOUT
+          </a>
+          <a href="/" className="s_3">
+            FEATURES
+          </a>
+          <div className="mainlogo">
+            <span>
+              <img src={logo} alt="Logo" className="mainlogoimg" />
+            </span>
           </div>
-          <span>SCREESHOT</span>
-          <span>BLOG</span>
-          <button>DOWNLOAD</button>
+          <a href="/" className="s_4">
+            SCREESHOT
+          </a>
+          <a href="/" className="s_5">
+            BLOG
+          </a>
+          <button className="butn">DOWNLOAD</button>
         </div>
       </section>
       <section className="section-3">
