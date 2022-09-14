@@ -11,14 +11,14 @@ import Team from "./components/Team/Team";
 function App() {
   return (
     <div>
-      {/* <Header /> */}
-      {/* <About /> */}
+      <Header />
+      <About />
       <Features />
-      {/* <Checkout /> */}
-      {/* <Team /> */}
-      {/* <Customer /> */}
-      {/* <Blog /> */}
-      {/* <Footer /> */}
+      <Checkout />
+      <Team />
+      <Customer />
+      <Blog />
+      <Footer />
     </div>
   );
 }
