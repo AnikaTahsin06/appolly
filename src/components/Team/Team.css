@@ -19,19 +19,17 @@
 }
 
 .app_perfectly_items {
-  width: 100%;
+  /* width: 100%; */
   z-index: 2;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .app_perfectly_items1 {
   text-align: center;
   padding-top: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
-  padding-left: 320px;
-  padding-right: 320px;
+  margin: 0px 25%;
   margin-bottom: 25px;
 }
 
@@ -104,4 +102,147 @@
   justify-content: center;
   gap: 45px;
   padding: 45px 0px;
+}
+
+@media only screen and (max-width: 1214px) {
+  .profile {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 1091px) {
+  .app_perfectly_back img {
+    height: 497px;
+  }
+
+  .video {
+    width: 870px;
+    height: 531px;
+  }
+
+  .videoicon {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+@media only screen and (max-width: 969px) {
+  .app_perfectly_back img {
+    height: 475px;
+  }
+
+  .video {
+    width: 770px;
+    height: 431px;
+    margin-top: -80px;
+  }
+
+  .videoicon {
+    width: 65px;
+    height: 65px;
+    margin-top: -260px;
+  }
+}
+
+@media only screen and (max-width: 889px) {
+  .app_perfectly_back img {
+    height: 520px;
+  }
+}
+
+@media only screen and (max-width: 807px) {
+  .app_perfectly_back img {
+    height: 542px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .app_perfectly_back img {
+    height: 510px;
+  }
+
+  .video {
+    width: 695px;
+    height: 365px;
+    margin-top: -80px;
+  }
+
+  .videoicon {
+    width: 60px;
+    height: 60px;
+    margin-top: -220px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile {
+    gap: 25px;
+  }
+}
+
+@media only screen and (max-width: 694px) {
+  .app_perfectly_back img {
+    height: 490px;
+  }
+
+  .app_perfectly_items1 h1 {
+    font-size: 22px;
+  }
+
+  .app_perfectly_items1 p {
+    font-size: 14px;
+  }
+
+  .video {
+    width: 650px;
+    height: 345px;
+    margin-top: -80px;
+  }
+
+  .videoicon {
+    width: 58px;
+    height: 58px;
+    margin-top: -220px;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .app_perfectly_items1 h1 {
+    font-size: 20px;
+  }
+
+  .app_perfectly_items1 p {
+    font-size: 14px;
+  }
+
+  .video {
+    width: 620px;
+    height: 354px;
+    /* margin-top: -80px; */
+  }
+}
+@media only screen and (max-width: 619px) {
+  .video {
+    width: 600px;
+    height: 354px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .app_perfectly_back img {
+    height: 487px;
+  }
+
+  .app_perfectly_items1 h1 {
+    font-size: 19px;
+  }
+
+  .app_perfectly_items1 p {
+    font-size: 13px;
+  }
+
+  .video {
+    width: 590px;
+    height: 354px;
+    /* margin-top: -80px; */
+  }
 }

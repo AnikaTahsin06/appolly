@@ -35,7 +35,7 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 23px;
   line-height: 47px;
   text-transform: uppercase;
   color: #232233;
@@ -89,4 +89,81 @@
 
 .social_icon div {
   border-right: 1px solid #6c6c72;
+}
+
+@media only screen and (max-width: 1214px) {
+  .team_member {
+    width: 28%;
+  }
+}
+@media only screen and (max-width: 954px) {
+  .team_member {
+    height: 490px;
+  }
+  .profile_intro h1 {
+    font-size: 20px;
+  }
+  .profile_intro h2 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 823px) {
+  .profile_intro h1 {
+    font-size: 19px;
+  }
+  .profile_intro h2 {
+    font-size: 13px;
+  }
+  .social_icon {
+    gap: 23px;
+  }
+}
+@media only screen and (max-width: 784px) {
+  .profile_intro h1 {
+    font-size: 18px;
+  }
+  .profile_intro p {
+    font-size: 13px;
+  }
+  .social_icon {
+    gap: 21px;
+  }
+  .s {
+    width: 85%;
+  }
+
+  .r {
+    width: 76%;
+    margin-top: -177px;
+  }
+}
+@media only screen and (max-width: 779px) {
+  .r {
+    margin-top: -176px;
+  }
+}
+@media only screen and (max-width: 775px) {
+  .r {
+    margin-top: -175px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .r {
+    margin-top: -174px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .team_member {
+    width: 28.5%;
+    height: 460px;
+  }
+
+  .s {
+    width: 73%;
+  }
+
+  .r {
+    width: 66%;
+    margin-top: -152px;
+  }
 }
