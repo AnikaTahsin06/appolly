@@ -95,6 +95,7 @@
   border-radius: 30px;
   margin-top: 90px;
   margin-bottom: -118px;
+  z-index: 2;
 }
 
 .sec_3_div_left {
