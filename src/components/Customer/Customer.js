@@ -41,7 +41,7 @@ const Customer = () => {
               slides={slides}
               goToSlide={0}
               offsetRadius={2}
-              // showNavigation={true}
+              showNavigation={true}
             />
           </div>
         </div>

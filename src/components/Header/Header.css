@@ -94,20 +94,17 @@
 .card {
   display: flex;
   justify-content: center;
-  /* margin-left: 7%; */
-  /* margin-right: 5%; */
   margin-top: -20px;
 }
 
 .card_div {
   width: 52%;
-  height: 380px;
+  height: 55%;
   background: #ffffff;
   margin-right: -50%;
   margin-top: 210px;
   padding-left: 3%;
   padding-right: 1%;
-  /* padding-top: 4%; */
   z-index: 5;
 }
 
@@ -161,12 +158,9 @@
 }
 
 .hdMobile img {
-  /* position: absolute; */
   width: 445px;
   height: 580px;
-  /* margin-left: 879px; */
-  margin-top: 90px;
-  /* margin-right: 20px; */
+  margin-top: 20%;
 }
 
 .sec-1-common {

@@ -1,25 +1,32 @@
+.full_footer {
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #232233;
+}
+
 .Footer {
   display: flex;
-  align-items: center;
-  padding-left: 100px;
-  gap: 300px;
+  justify-content: space-between;
 
-  height: 245px;
-  background: #232233;
-  padding-top: 200px;
+  /* align-items: center; */
+  /* padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  background: #232233; */
 }
 
 .Logo {
   display: block;
-  margin-left: 35px;
-  width: 22%;
+  width: 29%;
 }
 
 .logo h1 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 31.25px;
   line-height: 47px;
   text-transform: uppercase;
   color: #ffffff;
@@ -29,15 +36,14 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  margin-top: -15px;
 }
 
 .links {
   display: flex;
-  gap: 10px;
+  gap: 30px;
 }
 .links div {
   border-right: 1px solid #ffffff;
@@ -47,9 +53,23 @@
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 38px;
+  font-size: 23px;
+  line-height: 58px;
+  /* identical to box height, or 150% */
+
   text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.quickLinks p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   color: #ffffff;
 }
 
@@ -62,3 +82,41 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+
+.newsLetter p {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.newsLetter input {
+  width: 369px;
+  height: 50px;
+
+  background: #ffffff;
+  border-radius: 4px;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #6c6c72;
+}
+
+.newsLetter button {
+  width: 52px;
+  height: 46px;
+
+  background: #5956e9;
+  border-radius: 4px;
+}
+
+/* .hr {
+  width: 1167px;
+  height: 0px;
+  border: 1px solid #ffffff;
+} */
