@@ -14,7 +14,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="bg">
-      <section className="section-1">
+      {/* <section className="section-1">
         <div className="sec-1-common">
           <img
             src={email}
@@ -76,12 +76,12 @@ const Header = () => {
           </a>
           <button className="butn">DOWNLOAD</button>
         </div>
-      </section>
+      </section> */}
       <section className="section-3">
         <div className="sec-3-div">
           <div className="card">
-            <div className="card_div">
-              <div className="card_div_one">
+            <div className="card-div">
+              <div className="card-div-one">
                 <h1>A Great App Makes Your Life Better</h1>
                 <p>
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -89,7 +89,7 @@ const Header = () => {
                   Exercitation veniam consequat sunt nostrud amet.
                 </p>
               </div>
-              <div className="card_div_two">
+              <div className="card-div-two">
                 <h2>Download App Now</h2>
 
                 <img src={toppng} alt="top png" className="toppng" />
@@ -105,21 +105,6 @@ const Header = () => {
         </div>
       </section>
     </header>
-    // <div>
-    // <section style={{ display: "flex", justifyContent: "space-between" }}>
-    //     <div style={{ display: "flex", gap: "20px" }}>
-    //       <span>phone</span>
-    //       <span>email</span>
-    //     </div>
-    //     <div style={{ display: "flex", gap: "20px" }}>
-    //       <span>a</span>
-    //       <span>b</span>
-    //       <span>c</span>
-    //       <span>d</span>
-    //     </div>
-    //   </section>
-    //   <img src={background} alt="" style={{ width: "100%", height: "650px" }} />
-    // </div>
   );
 };
 
