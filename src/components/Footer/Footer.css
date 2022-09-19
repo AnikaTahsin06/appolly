@@ -9,13 +9,6 @@
 .Footer {
   display: flex;
   justify-content: space-between;
-
-  /* align-items: center; */
-  /* padding-top: 15%;
-  padding-left: 10%;
-  padding-right: 10%;
-
-  background: #232233; */
 }
 
 .Logo {
@@ -56,12 +49,7 @@
   font-weight: 600;
   font-size: 23px;
   line-height: 58px;
-  /* identical to box height, or 150% */
-
   text-transform: uppercase;
-
-  /* White */
-
   color: #ffffff;
 }
 
@@ -74,12 +62,16 @@
   color: #ffffff;
 }
 
+.newsLetter {
+  width: 31%;
+}
+
 .newsLetter h1 {
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 38px;
+  line-height: 58px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -92,11 +84,14 @@
   line-height: 24px;
   color: #ffffff;
 }
+.input {
+  display: flex;
+  align-items: center;
+}
 
 .newsLetter input {
   width: 369px;
   height: 50px;
-
   background: #ffffff;
   border-radius: 4px;
   font-family: "Josefin Sans";
@@ -111,13 +106,246 @@
 .newsLetter button {
   width: 52px;
   height: 46px;
-
+  margin-left: -55px;
+  border: none;
   background: #5956e9;
   border-radius: 4px;
 }
 
-/* .hr {
-  width: 1167px;
-  height: 0px;
-  border: 1px solid #ffffff;
-} */
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.copy {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 768px) {
+  .Logo {
+    width: 27%;
+  }
+
+  .logo h1 {
+    font-size: 24.25px;
+  }
+
+  .logo p {
+    font-size: 11px;
+    line-height: 19px;
+  }
+  .links {
+    gap: 15px;
+  }
+
+  .quickLinks h1 {
+    font-size: 18px;
+  }
+
+  .quickLinks p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  .newsLetter {
+    width: 27%;
+  }
+
+  .newsLetter h1 {
+    font-size: 18px;
+    line-height: 56px;
+  }
+
+  .newsLetter p {
+    font-size: 12px;
+    line-height: 27px;
+  }
+
+  .newsLetter input {
+    height: 40px;
+    font-size: 11px;
+  }
+
+  .newsLetter button {
+    height: 38px;
+    margin-left: -37px;
+  }
+
+  .copy {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 658px) {
+  .Logo {
+    width: 25%;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+  .logo p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .links {
+    gap: 9px;
+  }
+
+  .quickLinks h1 {
+    font-size: 16px;
+  }
+
+  .quickLinks p {
+    font-size: 11px;
+    line-height: 22px;
+  }
+
+  .newsLetter {
+    width: 25%;
+  }
+
+  .newsLetter h1 {
+    font-size: 16px;
+    line-height: 52px;
+  }
+
+  .newsLetter p {
+    font-size: 11px;
+    line-height: 25px;
+  }
+
+  .newsLetter input {
+    font-size: 10px;
+  }
+
+  .newsLetter button {
+    height: 36px;
+  }
+
+  .copy {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 633px) {
+  .Logo {
+    width: 20%;
+  }
+
+  .logo h1 {
+    font-size: 15px;
+  }
+
+  .logo p {
+    font-size: 8px;
+    line-height: 13px;
+  }
+  .links {
+    gap: 9px;
+  }
+
+  .quickLinks h1 {
+    font-size: 12px;
+  }
+
+  .quickLinks p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .newsLetter {
+    width: 20%;
+  }
+
+  .newsLetter h1 {
+    font-size: 12px;
+  }
+
+  .newsLetter p {
+    font-size: 9px;
+    line-height: 22px;
+  }
+
+  .newsLetter input {
+    height: 35px;
+    font-size: 9px;
+  }
+
+  .newsLetter button {
+    height: 30px;
+  }
+
+  .copy {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .Logo {
+    width: 35%;
+  }
+
+  .logo h1 {
+    font-size: 11px;
+  }
+
+  .logo p {
+    font-size: 7px;
+    line-height: 11px;
+  }
+  .links {
+    gap: 8px;
+  }
+
+  .quickLinks h1 {
+    font-size: 10px;
+  }
+
+  .quickLinks p {
+    font-size: 8px;
+    line-height: 18px;
+  }
+
+  .newsLetter {
+    width: 35%;
+  }
+
+  .newsLetter h1 {
+    font-size: 10px;
+  }
+
+  .newsLetter p {
+    font-size: 8px;
+    line-height: 20px;
+  }
+
+  .newsLetter input {
+    height: 33px;
+    font-size: 7px;
+  }
+
+  .newsLetter button {
+    height: 28px;
+  }
+
+  .copy {
+    font-size: 8px;
+  }
+}
+@media only screen and (max-width: 571px) {
+  .Logo {
+    width: 40%;
+  }
+
+  .newsLetter {
+    width: 40%;
+  }
+}

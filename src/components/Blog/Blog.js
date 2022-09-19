@@ -48,6 +48,10 @@ const Blog = () => {
               <a href="/" className="card-link">
                 Read more
               </a>
+              <br />
+              <br />
+              <br />
+              <br />
             </div>
           </div>
           <div className="BlogCard1">

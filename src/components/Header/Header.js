@@ -14,7 +14,7 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="bg">
-      {/* <section className="section-1">
+      <section className="section-1">
         <div className="sec-1-common">
           <img
             src={email}
@@ -54,6 +54,9 @@ const Header = () => {
       </section>
       <section className="section-2">
         <div className="sec-2-div">
+          <a href="/" className="s_0">
+            I
+          </a>
           <a href="/" className="s_1">
             HOME
           </a>
@@ -76,9 +79,11 @@ const Header = () => {
           </a>
           <button className="butn">DOWNLOAD</button>
         </div>
-      </section> */}
+      </section>
       <section className="section-3">
         <div className="sec-3-div">
+          <div className="shadowDiv"></div>
+
           <div className="card">
             <div className="card-div">
               <div className="card-div-one">
@@ -89,14 +94,13 @@ const Header = () => {
                   Exercitation veniam consequat sunt nostrud amet.
                 </p>
               </div>
-              <div className="card-div-two">
+              <div className="card_div_two">
                 <h2>Download App Now</h2>
 
                 <img src={toppng} alt="top png" className="toppng" />
                 <img src={pngItem} alt="pngItem" className="pngitem" />
               </div>
             </div>
-            <div className="shadowDiv"></div>
           </div>
 
           <div className="hdMobile">
@@ -105,6 +109,21 @@ const Header = () => {
         </div>
       </section>
     </header>
+    // <div>
+    // <section style={{ display: "flex", justifyContent: "space-between" }}>
+    //     <div style={{ display: "flex", gap: "20px" }}>
+    //       <span>phone</span>
+    //       <span>email</span>
+    //     </div>
+    //     <div style={{ display: "flex", gap: "20px" }}>
+    //       <span>a</span>
+    //       <span>b</span>
+    //       <span>c</span>
+    //       <span>d</span>
+    //     </div>
+    //   </section>
+    //   <img src={background} alt="" style={{ width: "100%", height: "650px" }} />
+    // </div>
   );
 };
 

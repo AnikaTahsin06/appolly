@@ -4,6 +4,7 @@ import instagram from "../../icons/instagram.png";
 import twitter from "../../icons/twitter.png";
 import youtube from "../../icons/youtube.png";
 import plain from "../../icons/plain.png";
+import copyright from "../../icons/cpyright.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -20,15 +21,7 @@ const Footer = () => {
             <br />
             <br />
           </div>
-          {/* <div className="links">
-            <span>fb</span>
-            <div />
-            <span>you</span>
-            <div />
-            <span>ins</span>
-            <div />
-            <span>twi</span>
-          </div> */}
+
           <div className="links">
             <img src={fb} alt="fb" className="f_b" />
             <div />
@@ -49,15 +42,22 @@ const Footer = () => {
         <div className="newsLetter">
           <h1>news letter</h1>
           <p>Subscribe our newsletter to get our latest update & news</p>
-          <input type="text" placeholder="Your email address" />
-          <button>
-            <img src={plain} alt="plain" />
-          </button>
+          <div className="input">
+            <input type="text" placeholder="Your email address" />
+            <button>
+              <img src={plain} alt="plain" />
+            </button>
+          </div>
         </div>
       </div>
       <div>
+        <br />
+        <br />
         <hr />
-        <p>anikadnfjnvnnf</p>
+        <div className="copyright">
+          <img src={copyright} alt="copyright" />
+          <p className="copy">Copyright 2021 .Ojjomedia. All Right Reserved.</p>
+        </div>
       </div>
     </div>
   );

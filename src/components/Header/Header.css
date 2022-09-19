@@ -18,8 +18,13 @@
   margin: 0px 103px;
   padding-top: 37px;
 }
+
 .section-2 {
   padding-top: 10px;
+}
+
+.s_0 {
+  display: none;
 }
 
 .sec-2-div {
@@ -89,140 +94,20 @@
 .sec-3-div {
   display: flex;
   justify-content: space-between;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  margin-top: -20px;
-}
-
-.card-div {
-  width: 52%;
-  height: 55%;
-  background: #ffffff;
-  margin-right: -50%;
-  margin-top: 210px;
-  padding-left: 3%;
-  padding-right: 1%;
-  z-index: 5;
-}
-
-.card-div-one h1 {
-  font-family: "Josefin Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 41px;
-  line-height: 50px;
-  text-transform: uppercase;
-  color: #5956e9;
-}
-
-.card-div-one p {
-  font-family: "Josefin Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #6c6c72;
-  margin-top: -20px;
-}
-
-.card-div-two h2 {
-  font-family: "Josefin Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #232233;
-  padding-top: 22px;
-}
-
-.card-div-two img {
-  width: 132px;
-  height: 42px;
-  margin-top: -10px;
-}
-
-.pngitem {
-  margin-left: 17px;
+  align-items: center;
 }
 
 .shadowDiv {
-  width: 52%;
-  height: 440px;
-
-  margin-top: 162px;
   border: 18px solid #7572ff;
-}
-
-.hdMobile img {
-  width: 445px;
-  height: 580px;
-  margin-top: 20%;
-}
-
-.sec-1-common {
-  display: flex;
-  gap: 35px;
-}
-
-@media only screen and (max-width: 768px) {
-  .hdMobile img {
-    width: 252px;
-    height: 373px;
-    margin-top: 59%;
-  }
-
-  .card-div {
-    width: 53%;
-    height: 52%;
-    margin-left: 0%;
-  }
-
-  .shadowDiv {
-    width: 49%;
-    height: 311px;
-    margin-top: 180px;
-  }
-
-  .card-div-one h1 {
-    font-size: 23px;
-    line-height: 35px;
-  }
-
-  .card-div-one p {
-    font-size: 11px;
-    line-height: 16px;
-    margin-top: 0px;
-  }
-
-  .card-div-two h2 {
-    font-size: 14px;
-    line-height: 30px;
-    padding-top: 0px;
-  }
-
-  .card-div-two img {
-    width: 100px;
-    height: 30px;
-    margin-top: -1px;
-  }
-
-  .pngitem {
-    margin-left: 17px;
-  }
-}
-
-/* .sec-3-div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 380px;
+  width: 400px;
+  position: relative;
+  margin-left: 15.5%;
 }
 
 .card {
   margin-left: 10%;
+  position: absolute;
 }
 
 .card-div {
@@ -251,6 +136,12 @@
   margin-top: -20px;
 }
 
+.card_div_two img {
+  width: 132px;
+  height: 42px;
+  margin-top: -10px;
+}
+
 .hdMobile img {
   width: 445px;
 }
@@ -260,6 +151,10 @@
     width: 350px;
   }
 
+  .shadowDiv {
+    width: 320px;
+  }
+
   .card-div-one h1 {
     font-size: 30px;
   }
@@ -267,36 +162,56 @@
   .hdMobile img {
     width: 415px;
   }
+
+  .sec-2-div {
+    font-size: 16px;
+  }
 }
+
+@media only screen and (max-width: 1023px) {
+  .s_1,
+  .s_2,
+  .s_3,
+  .s_4,
+  .s_5 {
+    display: none;
+  }
+
+  .s_0 {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 950px) {
   .card-div {
     width: 250px;
   }
 
+  .shadowDiv {
+    width: 230px;
+    height: 350px;
+  }
+
   .card-div-one h1 {
     font-size: 20px;
+    line-height: 30px;
   }
 
   .hdMobile img {
     width: 385px;
   }
+
+  .card_div_two img {
+    width: 102px;
+    height: 42px;
+  }
 }
+
 @media only screen and (max-width: 730px) {
   .card {
     margin-left: 5%;
-  }
-  .card-div {
-    width: 240px;
   }
 
-  .card-div-one h1 {
-    font-size: 16px;
-  }
-}
-@media only screen and (max-width: 730px) {
-  .card {
-    margin-left: 5%;
-  }
   .card-div {
     width: 240px;
   }
@@ -306,10 +221,12 @@
     line-height: 30px;
   }
 }
+
 @media only screen and (max-width: 680px) {
   .card {
     margin-left: 3%;
   }
+
   .card-div {
     width: 220px;
   }
@@ -319,7 +236,131 @@
     line-height: 30px;
   }
 
+  .card_div_two img {
+    width: 90px;
+    height: 42px;
+  }
+
   .hdMobile img {
     width: 385px;
   }
-} */
+}
+
+@media only screen and (max-width: 650px) {
+  .card {
+    margin-left: 3%;
+  }
+
+  .card-div {
+    width: 200px;
+  }
+
+  .card-div-one h1 {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .hdMobile img {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-left: 3%;
+  }
+
+  .card-div {
+    width: 180px;
+  }
+
+  .card-div-one h1 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .card_div_two h2 {
+    font-size: 14px;
+  }
+
+  .hdMobile img {
+    width: 330px;
+  }
+
+  .card_div_two img {
+    width: 80px;
+    height: 42px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin-left: 3%;
+  }
+
+  .card-div {
+    width: 170px;
+  }
+
+  .card-div-one h1 {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .card-div-one p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .card_div_two h2 {
+    font-size: 14px;
+  }
+
+  .hdMobile img {
+    width: 300px;
+  }
+
+  .card_div_two img {
+    width: 60px;
+    height: 42px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .sec-3-div {
+    flex-direction: column;
+  }
+
+  .card {
+    /* margin-left: -5%;
+    width: 320px;
+    margin-top: 40px; */
+    width: 320px;
+    margin-left: -7%;
+    margin-top: 40px;
+  }
+
+  .card-div {
+    width: 100%;
+  }
+
+  .card-div-one h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .card_div_two img {
+    width: 102px;
+    height: 42px;
+  }
+
+  .shadowDiv {
+    height: 320px;
+    width: 300px;
+  }
+
+  .hdMobile {
+    margin-left: 10%;
+    width: 300px;
+  }
+}
