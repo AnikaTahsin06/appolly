@@ -39,7 +39,7 @@ const Customer = () => {
           </p>
         </div>
         <div className="customer_items2">
-          <div style={{ height: "300px", width: "70%", margin: "0 auto" }}>
+          <div className="carousel">
             <Carousel
               slides={slides}
               goToSlide={slideNo}

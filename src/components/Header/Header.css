@@ -95,6 +95,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 60px;
 }
 
 .shadowDiv {
@@ -144,6 +145,20 @@
 
 .hdMobile img {
   width: 445px;
+}
+
+.mobile-nav {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px 0px;
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -219,6 +234,23 @@
   .card-div-one h1 {
     font-size: 16px;
     line-height: 30px;
+  }
+
+  .mainlogo {
+    width: 110px;
+  }
+
+  .mainlogoimg {
+    width: 90px;
+  }
+
+  .butn {
+    width: 100px;
+    font-size: 14px;
+  }
+
+  .sec-2-div {
+    margin: 0px 20px;
   }
 }
 
@@ -362,5 +394,148 @@
   .hdMobile {
     margin-left: 10%;
     width: 300px;
+  }
+
+  .mainlogo {
+    width: 90px;
+  }
+
+  .mainlogoimg {
+    width: 70px;
+  }
+
+  .butn {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .sec-2-div {
+    margin-top: 20px;
+  }
+
+  .bg {
+    height: 150vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card {
+    /* margin-left: -5%;
+    width: 320px;
+    margin-top: 40px; */
+    width: 230px;
+    margin-left: -7%;
+    margin-top: 40px;
+  }
+
+  .card-div {
+    width: 100%;
+  }
+
+  .card-div-one h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .card_div_two img {
+    width: 102px;
+    height: 42px;
+  }
+
+  .shadowDiv {
+    height: 370px;
+    width: 230px;
+  }
+
+  .hdMobile {
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  .mainlogo {
+    width: 90px;
+  }
+
+  .mainlogoimg {
+    width: 70px;
+  }
+
+  .butn {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .sec-2-div {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .card {
+    /* margin-left: -5%;
+    width: 320px;
+    margin-top: 40px; */
+    width: 210px;
+    margin-left: -7%;
+    margin-top: 40px;
+  }
+
+  .card-div {
+    width: 100%;
+  }
+
+  .card-div-one h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .card_div_two img {
+    width: 80px;
+    height: 42px;
+  }
+
+  .shadowDiv {
+    height: 370px;
+    width: 210px;
+  }
+
+  .hdMobile {
+    margin-left: 10%;
+    width: 300px;
+  }
+
+  .hdMobile img {
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 220px;
+  }
+
+  .mainlogo {
+    width: 90px;
+  }
+
+  .mainlogoimg {
+    width: 70px;
+  }
+
+  .butn {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .section-1 {
+    display: none;
+  }
+
+  .sec-2-div {
+    margin-top: 20px;
   }
 }

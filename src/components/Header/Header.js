@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import email from "../../icons/email.png";
 import phone from "../../icons/phone.png";
 import fb from "../../icons/fb.png";
@@ -9,9 +9,12 @@ import logo from "../../images/Logo.png";
 import headMobile from "../../images/mobile.png";
 import toppng from "../../images/toppng.png";
 import pngItem from "../../images/PngItem.png";
+import menuItem from "../../icons/menu-line.png";
+import removeItem from "../../icons/Remove.png";
 import "./Header.css";
 
 const Header = () => {
+  const [expandable, setExpandable] = useState(false);
   return (
     <header className="bg">
       <section className="section-1">
@@ -54,9 +57,13 @@ const Header = () => {
       </section>
       <section className="section-2">
         <div className="sec-2-div">
-          <a href="/" className="s_0">
-            I
-          </a>
+          <span href="/" className="s_0">
+            <img
+              src={menuItem}
+              alt="menu-item"
+              onClick={() => setExpandable(!expandable)}
+            />
+          </span>
           <a href="/" className="s_1">
             HOME
           </a>
@@ -80,6 +87,28 @@ const Header = () => {
           <button className="butn">DOWNLOAD</button>
         </div>
       </section>
+      {expandable && (
+        <div className="mobile-nav">
+          <span
+            style={{
+              display: "flex",
+              justifyContent: "flex-end",
+              width: "100%",
+            }}
+          >
+            <img
+              src={removeItem}
+              alt="remove"
+              onClick={() => setExpandable(!expandable)}
+            ></img>
+          </span>
+          <span style={{ marginTop: "-20px" }}>HOME</span>
+          <span>ABOUT</span>
+          <span>FEATURE</span>
+          <span>SCREENSHOT</span>
+          <span>BLOG</span>
+        </div>
+      )}
       <section className="section-3">
         <div className="sec-3-div">
           <div className="shadowDiv"></div>
