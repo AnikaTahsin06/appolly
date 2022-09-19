@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { v4 as uuidv4 } from "uuid";
 import Rectangle14 from "../../images/Rectangle 14.png";
@@ -6,6 +6,7 @@ import "./Customer.css";
 import CustomerCard from "./CustomerCard";
 
 const Customer = () => {
+  const [slideNo, setSlideNo] = useState(0);
   const slides = [
     {
       key: uuidv4(),
@@ -19,7 +20,9 @@ const Customer = () => {
       key: uuidv4(),
       content: <CustomerCard />,
     },
-  ];
+  ].map((slide, index) => {
+    return { ...slide, onClick: () => setSlideNo(index) };
+  });
   return (
     <div className="customer">
       <div className="customer_back">
@@ -39,7 +42,7 @@ const Customer = () => {
           <div style={{ height: "300px", width: "70%", margin: "0 auto" }}>
             <Carousel
               slides={slides}
-              goToSlide={0}
+              goToSlide={slideNo}
               offsetRadius={2}
               showNavigation={true}
             />
