@@ -123,8 +123,38 @@
   }
 }
 
-@media only screen and (max-width: 487px) {
-  .app_perfectly_back img {
-    width: 100vh;
+@media only screen and (max-width: 464px) {
+  .app_perfectly_items1 h1 {
+    font-size: 23px;
+    line-height: 41px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .app_perfectly_items1 h1 {
+    font-size: 23px;
+    line-height: 41px;
+  }
+  .app_perfectly_items1 p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .app_perfectly_items1 h1 {
+    font-size: 22px;
+    line-height: 43px;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .app_perfectly_items1 p {
+    font-size: 12px;
+    line-height: 21px;
   }
 }

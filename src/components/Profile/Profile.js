@@ -1,5 +1,5 @@
 import React from "react";
-import r from "../../images/gous.png";
+import r from "../../images/jocelyn.png";
 import s from "../../images/Group.png";
 import black_fb from "../../icons/black_fb.png";
 import black_insta from "../../icons/black_insta.png";
