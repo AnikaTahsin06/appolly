@@ -340,7 +340,29 @@
     font-size: 8px;
   }
 }
-@media only screen and (max-width: 571px) {
+@media only screen and (max-width: 600px) {
+  .full_footer {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .Logo {
+    width: 28%;
+  }
+
+  .newsLetter input {
+    height: 31px;
+    width: 78%;
+  }
+
+  .newsLetter button {
+    height: 25px;
+    width: 18%;
+  }
+  button img {
+    width: 76%;
+  }
+}
+/* @media only screen and (max-width: 571px) {
   .Logo {
     width: 40%;
   }
@@ -348,4 +370,4 @@
   .newsLetter {
     width: 40%;
   }
-}
+} */

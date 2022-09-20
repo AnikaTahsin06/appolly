@@ -130,8 +130,128 @@
   margin-bottom: 4%;
 }
 
+@media only screen and (max-width: 1261px) {
+  .sub1 {
+    width: 451px;
+  }
+  .sub1 h1 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+  .bluediv {
+    width: 30%;
+    height: 30%;
+  }
+  .bluediv h3 {
+    font-size: 15px;
+    line-height: 8px;
+  }
+  .gravity {
+    width: 77%;
+    height: 87%;
+    margin-top: 17%;
+    margin-left: 16%;
+  }
+  .subdiv2_ellipse {
+    margin-left: 7%;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .sub1 {
+    width: 427px;
+  }
+  .sub1 h1 {
+    font-size: 24px;
+    line-height: 44px;
+  }
+  .sub1 p {
+    font-size: 15px;
+    line-height: 23px;
+  }
+  .bluediv {
+    width: 28%;
+    height: 28%;
+  }
+  .bluediv h3 {
+    font-size: 13px;
+    line-height: 7px;
+  }
+  .gravity {
+    width: 79%;
+    height: 67%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sub1 {
+    width: 327px;
+  }
+  .sub1 h1 {
+    font-size: 20px;
+    line-height: 42px;
+  }
+  .sub1 p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .sub1 img {
+    width: 104px;
+    height: 38px;
+  }
+  .bluediv {
+    width: 26%;
+    /* height: 28%; */
+  }
+  .sub3 {
+    gap: 18px;
+  }
+  .bluediv h3 {
+    font-size: 10px;
+    line-height: 6px;
+  }
+  .gravity {
+    width: 73%;
+    height: 80%;
+  }
+  .subdiv2_ellipse {
+    width: 65%;
+  }
+}
+
 @media only screen and (max-width: 425px) {
+  .first h1 {
+    font-size: 20px;
+    line-height: 38px;
+  }
   .wholediv {
     flex-direction: column;
+  }
+  .sub1 {
+    width: 281px;
+  }
+  .sub1 h1 {
+    font-size: 25px;
+    line-height: 46px;
+  }
+  .sub1 p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .bluediv {
+    width: 27%;
+    height: 27%;
+  }
+  .bluediv h3 {
+    font-size: 10px;
+    line-height: 7px;
+  }
+  .gravity {
+    width: 84%;
+    height: 89%;
+    margin-top: 19%;
+    margin-left: 0%;
+  }
+  .subdiv2_ellipse {
+    margin-left: -7%;
+    width: 56%;
   }
 }
