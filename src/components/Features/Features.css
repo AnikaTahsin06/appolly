@@ -375,4 +375,7 @@
   .app_feat_back img {
     height: 2345px;
   }
+  .items3_img img {
+    margin-left: 4%;
+  }
 }

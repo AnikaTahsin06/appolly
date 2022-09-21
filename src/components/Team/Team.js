@@ -2,6 +2,9 @@ import React from "react";
 import Rectangle from "../../images/Rectangle.png";
 import video from "../../images/Video.png";
 import videoicon from "../../images/Vodeo Icon.png";
+import carla from "../../images/carla.png";
+import gous from "../../images/gous.png";
+import jacklin from "../../images/jocelyn.png";
 import Profile from "../Profile/Profile";
 import "./Team.css";
 
@@ -41,9 +44,24 @@ const Team = () => {
           </p>
         </div>
         <div className="profile">
-          <Profile />
-          <Profile />
-          <Profile />
+          <Profile
+            pp={carla}
+            name="Carla Press"
+            designation="App Developer"
+            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae."
+          />
+          <Profile
+            pp={gous}
+            name="Craig Gouse"
+            designation="UI/UX Designer"
+            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae."
+          />
+          <Profile
+            pp={jacklin}
+            name="Jocelyn Septimus"
+            designation="Website developer"
+            details="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae."
+          />
         </div>
       </section>
     </section>
